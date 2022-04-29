@@ -1,0 +1,46 @@
+* {
+    background-color: lightgoldenrodyellow;
+    border-radius: 0.75em;
+    margin: 1em;
+    padding: 1em;
+}
+.solid {
+    border-style: solid;
+    border-width: 0.3em;
+}
+.flex {
+    display: flex;
+}
+.center {
+    align-content: center;
+    justify-content: center;
+}
+.around {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.black {
+    background-color: black;
+    border-color: white;
+    color: red;
+}
+.white {
+    background-color: white;
+    border-color: black;
+    color: red;
+}
+button, img {
+    min-width: 6em;
+    max-width: 10em;
+    aspect-ratio: 1 / 1.618;
+    box-shadow: 5px 10px #888888;
+}
